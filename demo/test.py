@@ -25,8 +25,13 @@
 
  
 
-def my_func(a,b,c,d=10):
+# def my_func(a,b,c,d=10):
+# 	print locals()
+
+
+# my_func(1,2,c='test')
+
+def my_function(a,*args,**kwargs):
 	print locals()
 
-
-my_func(1,2,c='test')
+my_function(1,2,3,kw='test')
