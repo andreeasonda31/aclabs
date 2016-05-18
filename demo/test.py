@@ -18,7 +18,15 @@
 # print my_dict
 # print my_dict['abc']
 # my_dict['c'] ='a'
-#print dir(my_dict)
-a=range(10)
-print a[2:-1:2]
-print 
+# #print dir(my_dict)
+# a=range(10)
+# print a[2:-1:2]
+ 
+
+ 
+
+def my_func(a,b,c,d=10):
+	print locals()
+
+
+my_func(1,2,c='test')
